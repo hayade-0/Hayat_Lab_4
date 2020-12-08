@@ -1,0 +1,17 @@
+﻿  Motor_vehicler.cpp
+  Point2D.cpp
+  Polyline.cpp
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Point2D.h(5,1): error C2011: 'Point2D': 'class' type redefinition
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Point2D.h(4): message : see declaration of 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Polyline.h(10,1): error C2027: use of undefined type 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Point2D.h(4): message : see declaration of 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Polyline.h(14,1): error C2027: use of undefined type 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Point2D.h(4): message : see declaration of 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Polyline.cpp(6,16): error C2027: use of undefined type 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Point2D.h(4): message : see declaration of 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Polyline.cpp(9,4): error C2027: use of undefined type 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Point2D.h(4): message : see declaration of 'Point2D'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Polyline.cpp(10,22): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const Point2D' (or there is no acceptable conversion)
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Point2D.h(28,7): message : could be 'void Point2D::operator =(const Point2D)'
+C:\Users\hayat mohammednur\Desktop\C++\hayat lab 4 cpp\hayat Lab_4\hayat Lab_4\Polyline.cpp(10,22): message : while trying to match the argument list '(Point2D, const Point2D)'
+  Source.cpp
