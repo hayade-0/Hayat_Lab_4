@@ -27,8 +27,8 @@ public:
 	Point2D const retrieve_point(int index);
 	void remove();
 	bool check();
-	void get_total();
-	void get_length();
-	void print();
+	int const get_total();
+	float const get_length();
+	void const print();
 
 };
