@@ -28,6 +28,7 @@ public:
 	string toString();
 	Point2D operator+ (const Point2D& second);
 	void operator=(const Point2D ref);
+	bool operator==(const Point2D ref);
 	void print();
 
 
