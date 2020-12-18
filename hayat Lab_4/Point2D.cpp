@@ -31,6 +31,13 @@ void Point2D::operator=(const Point2D ref)
 	x = ref.x;
 	y = ref.y;
 }
+bool Point2D::operator==(const Point2D ref)
+{
+	if (x == ref.x && y == ref.y)
+		return true;
+	else
+		return false;
+}
 void Point2D::print()
 {
 	cout << toString() << endl;
@@ -52,6 +59,8 @@ int main()
 	cout << "the distance between the new point and first point: " << pointfour.distance_to(pointone) << endl;
 	Point2D pointfive = pointone;
 	pointfive.print();
+	bool equalityCheck = (pointfive == pointone);
+	cout << "pointfive is equalt to pointone " <<boolalpha<< equalityCheck << endl;
 
 
 }
